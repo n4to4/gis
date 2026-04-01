@@ -1,40 +1,55 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
-hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
-  actions:
-    - text: Example Guide
-      link: /guides/example/
-      icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+title: GISの全体像
+description: GISを構成する主要な概念の索引ページ
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+GIS（地理情報システム）を学ぶ上での主要トピックの索引です。
+各トピックのページは順次追加していきます。
 
-## Next steps
+## GISとは何か
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid>
+地理的な位置情報を持つデータを収集・管理・解析・表示するシステム。
+
+→ [GISとは何か](/gis/gis-basics/)（準備中）
+
+## データの種類
+
+GISのデータは大きく2種類に分かれる。
+
+- **ベクタ（Vector）**：点・線・ポリゴンで地物を表現する
+- **ラスタ（Raster）**：グリッド状のセルに値を持つ（衛星画像など）
+
+→ [ベクタとラスタ](/gis/data-types/)（準備中）
+
+## 座標系・CRS
+
+地球上のどこかを指定するための基準。同じ「緯度・経度」でも、使う座標系（CRS）が違うと位置がズレる。
+
+→ [座標系・CRS](/gis/crs/)（準備中）
+
+## データフォーマット
+
+| フォーマット | 種別 | 概要 |
+|---|---|---|
+| GeoJSON | ベクタ | JSONベースの汎用フォーマット |
+| Shapefile | ベクタ | 古くから使われるESRI形式 |
+| GeoTIFF | ラスタ | 地理情報付きTIFF |
+| PMTiles | タイル | 単一ファイルのマップタイル |
+
+→ [データフォーマット一覧](/gis/data-formats/)（準備中）
+
+## 処理（解析・変換）
+
+- 座標変換（CRS変換）
+- 空間結合・バッファ・クリップなどの空間解析
+- フォーマット変換（例：Shapefile → GeoJSON）
+
+→ [処理・解析](/gis/processing/)（準備中）
+
+## 表示（レンダリング）
+
+- ブラウザ上での表示：MapLibre GL JS、Leafletなど
+- サーバーサイドレンダリング
+- タイルの仕組み（XYZ、ベクタタイル）
+
+→ [表示・レンダリング](/gis/rendering/)（準備中）
