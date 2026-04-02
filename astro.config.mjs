@@ -12,6 +12,7 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/n4to4/gis' }],
 			sidebar: [
 				{ label: 'GISの全体像', slug: '' },
+				{ label: 'データフォーマット一覧', slug: 'data-formats' },
 			],
 		}),
 	],
