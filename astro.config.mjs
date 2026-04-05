@@ -13,6 +13,7 @@ export default defineConfig({
 			sidebar: [
 				{ label: 'GISの全体像', slug: '' },
 				{ label: 'データフォーマット一覧', slug: 'data-formats' },
+				{ label: 'CityGML 2.0', slug: 'citygml-2-0' },
 			],
 		}),
 	],
