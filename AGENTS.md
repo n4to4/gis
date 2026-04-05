@@ -29,3 +29,5 @@ When creating or editing documentation content, follow these rules:
 - [文体ルール](docs/writing-style.md) — 日本語の文体・用語の統一
 - [ページ作成ルール](docs/page-rules.md) — 1ページ1概念、ファイル配置、索引への追記
 - [概念ページ テンプレート](docs/templates/concept.md) — 新規ページを作るときに使うテンプレート
+- [仕様・フォーマット解説テンプレート](docs/templates/spec-or-format.md) — 技術的に掘り下げるページ向け
+- [技術ページの記述例](docs/examples/technical-page-example.md) — 深さの目安となるサンプル
