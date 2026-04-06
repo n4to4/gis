@@ -194,11 +194,22 @@ Building
 ## 公式仕様・一次情報
 
 - [OGC CityGML Standard](https://www.ogc.org/de/standards/citygml/)
+- [OGC CityGML 3.0 Part 1: Conceptual Model Standard](https://docs.ogc.org/is/20-010/20-010.html)
+- [OGC CityGML 3.0 Part 2: GML Encoding Standard](https://docs.ogc.org/is/21-006r2/21-006r2.html)
 - [OGC CityGML 3.0 Conceptual Model Users Guide](https://docs.ogc.org/guides/20-066.html)
+
+## 技術的詳細
+
+CityGML 3.0の詳細は、概念モデルとGML/XMLエンコーディングを分けて読むと追いやすい。
+
+- [CityGML 3.0 Conceptual Model Standard](/gis/data-formats/citygml-3-0/conceptual-model-standard/)
+- [CityGML 3.0 GML Encoding Standard](/gis/data-formats/citygml-3-0/gml-encoding-standard/)
 
 ## 関連概念
 
 - [CityGML](/gis/data-formats/citygml/)
+- [CityGML 3.0 Conceptual Model Standard](/gis/data-formats/citygml-3-0/conceptual-model-standard/)
+- [CityGML 3.0 GML Encoding Standard](/gis/data-formats/citygml-3-0/gml-encoding-standard/)
 - [CityGML 2.0のLOD](/gis/citygml-2-0/lod/)
 - [CityGML 2.0のXML構造](/gis/citygml-2-0/xml-structure/)
 - [データフォーマット一覧](/gis/data-formats/)

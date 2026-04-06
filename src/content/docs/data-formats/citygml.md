@@ -110,6 +110,8 @@ CityGML 3.0では、2.0の課題を踏まえてデータモデルが整理され
 詳細は別ページで扱う。
 
 - [CityGML 3.0](/gis/data-formats/citygml-3-0/)
+- [CityGML 3.0 Conceptual Model Standard](/gis/data-formats/citygml-3-0/conceptual-model-standard/)
+- [CityGML 3.0 GML Encoding Standard](/gis/data-formats/citygml-3-0/gml-encoding-standard/)
 
 ## 関連概念
 
