@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/bin/sh \"$(git rev-parse --show-toplevel)/.codex/hooks/format_docs_on_stop.sh\"",
+            "timeout": 120,
+            "statusMessage": "Checking documentation formatting"
+          }
+        ]
+      }
+    ]
+  }
+}
