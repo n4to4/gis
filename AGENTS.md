@@ -31,4 +31,4 @@ When creating or editing documentation content, follow these rules:
 - [概念ページ テンプレート](docs/templates/concept.md) — 新規ページを作るときに使うテンプレート
 - [仕様・フォーマット解説テンプレート](docs/templates/spec-or-format.md) — 技術的に掘り下げるページ向け
 - [技術ページの記述例](docs/examples/technical-page-example.md) — 深さの目安となるサンプル
-- 技術的な詳細や仕様解説を書くときは、必要に応じて公式仕様の該当箇所へのリンクまで含めて記述する
+- 技術的な詳細や仕様解説を書くときは、公式仕様の章・節へ直接飛べるURLがある場合に限り、その該当箇所へのリンクまで含めて記述する
