@@ -1,0 +1,10 @@
+{
+  "plugins": {
+    "mdx": true
+  },
+  "rules": {
+    "ja-space-between-half-and-full-width": {
+      "space": "never"
+    }
+  }
+}

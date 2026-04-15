@@ -7,11 +7,18 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format:docs": "textlint --fix \"src/content/docs/**/*.{md,mdx}\"",
+    "lint:docs": "textlint \"src/content/docs/**/*.{md,mdx}\""
   },
   "dependencies": {
     "@astrojs/starlight": "^0.38.2",
     "astro": "^6.0.1",
     "sharp": "^0.34.2"
+  },
+  "devDependencies": {
+    "textlint": "^15.5.4",
+    "textlint-plugin-mdx": "^1.1.0",
+    "textlint-rule-ja-space-between-half-and-full-width": "^2.4.2"
   }
 }
