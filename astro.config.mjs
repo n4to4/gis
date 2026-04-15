@@ -14,6 +14,7 @@ export default defineConfig({
 				{ label: 'GISの全体像', slug: '' },
 				{ label: 'データフォーマット一覧', slug: 'data-formats' },
 				{ label: 'CityGML', slug: 'data-formats/citygml' },
+				{ label: 'MVT', slug: 'data-formats/mvt' },
 				{ label: '3D Tiles', slug: 'data-formats/3d-tiles' },
 				{ label: 'glTF', slug: 'data-formats/gltf' },
 				{ label: 'CityGML 3.0', slug: 'data-formats/citygml-3-0' },
