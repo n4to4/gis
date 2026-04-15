@@ -16,6 +16,7 @@ export default defineConfig({
 				{ label: 'CityGML', slug: 'data-formats/citygml' },
 				{ label: 'MVT', slug: 'data-formats/mvt' },
 				{ label: '3D Tiles', slug: 'data-formats/3d-tiles' },
+				{ label: '3D Tiles のバージョン差分', slug: 'data-formats/3d-tiles-versions' },
 				{ label: 'glTF', slug: 'data-formats/gltf' },
 				{ label: 'CityGML 3.0', slug: 'data-formats/citygml-3-0' },
 				{ label: 'CityGML 3.0 Conceptual Model Standard', slug: 'data-formats/citygml-3-0/conceptual-model-standard' },
